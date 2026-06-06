@@ -1,5 +1,39 @@
+# Local config - never upload this
 config.json
-venv/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Environment files
 .env
+.envrc
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+.DS_Store
