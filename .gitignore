@@ -1,3 +1,6 @@
+# never upload history files
+history_*.txt
+
 # Local config - never upload this
 config.json
 
